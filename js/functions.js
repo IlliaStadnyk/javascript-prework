@@ -3,5 +3,5 @@ function printMessage(msg) {
     div.innerHTML = msg;
     document.getElementById('messages').appendChild(div);}
 function clearMessage() {
-    document.getElementById('message').innerHTML = '';
+    document.getElementById('messages').innerHTML = '';
 }
